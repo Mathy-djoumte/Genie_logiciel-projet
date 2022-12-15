@@ -1,0 +1,25 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("2f75ed87-c82c-4c2d-a4a9-e07017537b54")
+public class Ticket {
+    @objid ("63f729ce-4f37-4d40-894e-30f813d62a24")
+    private String id_ticket;
+
+    @objid ("00a821bf-726f-47a6-94f0-670afd510ac0")
+    public Voyage ;
+
+    @objid ("fb11587e-2a74-4ad0-bea5-7ce8b1a32c7a")
+    String getId_ticket() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.id_ticket;
+    }
+
+    @objid ("5abcf792-c1c6-4530-965f-d56eacb9a57a")
+    public Ticket() {
+    }
+
+    @objid ("06c1d03c-35c3-4320-8026-3d71aedaaf2f")
+    protected void finalize() {
+    }
+
+}
