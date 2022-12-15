@@ -1,0 +1,84 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.lang.Exception;
+
+
+class CreateLoginForm extends JFrame implements ActionListener
+{
+
+    JButton b1;
+    JPanel newPanel;
+    JLabel userLabel, passLabel;
+    final JTextField  textField1, textField2;
+
+        userLabel = new JLabel();
+        userLabel.setText("cni_client");
+
+        textField1 = new JTextField(15);
+
+        passLabel = new JLabel();
+        passLabel.setText("nom");
+         passLabel = new JLabel();
+        passLabel.setText("email");
+         passLabel = new JLabel();
+        passLabel.setText("addresse_client");
+
+        textField2 = new JPasswordField(15);
+
+        b1 = new JButton("SUBMIT");
+
+
+        newPanel = new JPanel(new GridLayout(3, 1));
+        newPanel.add(userLabel);
+        newPanel.add(textField1);
+        newPanel.add(passLabel);
+        newPanel.add(textField2);
+        newPanel.add(b1);
+
+
+        add(newPanel, BorderLayout.CENTER);
+
+
+        b1.addActionListener(this);
+        setTitle("connexion");
+    }
+
+public void creer_compte() {
+
+    if(txtId.getText().isEmpty()){
+            JOptionPane.showMessageDialog(null, "Veuillez remplir le numero cni");
+
+    }
+
+    else{
+            if(txtNom.getText().isEmpty())
+							JOptionPane.showMessageDialog(null, "Veuillez remplir le champ Nom");
+
+					}
+
+        else{
+                            if(txtPrenom.getText().isEmpty())
+								JOptionPane.showMessageDialog(null, "Veuillez remplir le champ nom");
+            }
+
+        else{
+
+                if(txtAdresse.getText().isEmpty()){
+                        JOptionPane.showMessageDialog(null, "Veuillez remplir le champ Adresse");
+
+                }
+
+        }
+        else{
+
+            if(txtTel.getText().isEmpty()){
+                JOptionPane.showMessageDialog(null, "Veuillez remplir le champ email");
+            }
+        }
+
+
+}
+
+b1.addActionListener(this);
+        setTitle("creer");
