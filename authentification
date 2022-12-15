@@ -1,0 +1,37 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("3574a963-340a-4755-8e7b-f0d42faca461")
+public class Agent {
+    @objid ("63abe586-c195-4889-8454-757c15c545d3")
+    public String id_agent;
+
+    @objid ("2e5899df-0241-4dcb-bb60-3d4b619747ad")
+    public String nom_agent;
+
+    @objid ("96668eed-c0c6-45ed-8c6b-1e466653968d")
+    String getId_agent() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.id_agent;
+    }
+
+    @objid ("f42eb6ae-274f-428c-a00c-67beb811cdb3")
+    public Agent() {
+    }
+
+    @objid ("50ffb471-60a3-4517-a919-63a8758bd8ea")
+    public void supprimer_agent() {
+    }
+
+    @objid ("9ed85aa1-615e-46f1-a1cc-deebacec4dcf")
+    String getNom_agent() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.nom_agent;
+    }
+
+    @objid ("03b8591c-9921-4acd-af0b-055706c28731")
+    void setNom_agent(String value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.nom_agent = value;
+    }
+
+}
