@@ -1,0 +1,66 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.lang.Exception;
+
+
+class Client extends JFrame implements ActionListener
+{
+
+    JButton b1;
+    JPanel newPanel;
+    JLabel userLabel, passLabel;
+    final JTextField  textField1, textField2;
+
+        userLabel = new JLabel();
+        userLabel.setText("cni_client");
+
+        textField1 = new JTextField(15);
+
+        passLabel = new JLabel();
+        passLabel.setText("nom");
+         passLabel = new JLabel();
+        passLabel.setText("email");
+         passLabel = new JLabel();
+        passLabel.setText("addresse_client");
+
+        textField2 = new JPasswordField(15);
+
+        b1 = new JButton("SUBMIT");
+
+
+        newPanel = new JPanel(new GridLayout(3, 1));
+        newPanel.add(userLabel);
+        newPanel.add(textField1);
+        newPanel.add(passLabel);
+        newPanel.add(textField2);
+        newPanel.add(b1);
+
+
+        add(newPanel, BorderLayout.CENTER);
+
+
+        b1.addActionListener(this);
+        setTitle("envoyer");
+    }
+
+
+
+
+
+public void transferer_colis() {
+
+    if(txtId.getText().isEmpty()){
+            JOptionPane.showMessageDialog(null, "Veuillez remplir le numero type du colis");
+
+    }
+
+    else{
+            if(txtNom.getText().isEmpty())
+							JOptionPane.showMessageDialog(null, "Veuillez remplir la description du colis");
+
+					}
+
+
+ b1.addActionListener(this);
+        setTitle("envoyer");
