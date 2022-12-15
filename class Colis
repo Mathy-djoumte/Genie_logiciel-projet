@@ -1,0 +1,38 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("48462985-a44e-4d79-948c-e2bcea477101")
+public class Colis {
+    @objid ("395fb181-c6af-4c8a-8443-4fa79f8230fd")
+    public String num_colis;
+
+    @objid ("1f97dd3e-3143-4bda-a58d-29f7c8b61f55")
+    public String type_colis;
+
+    @objid ("3550f8c1-a186-4922-9194-3cf57f5d8545")
+    public String description_colis;
+
+    @objid ("ed6712bb-4490-40ea-ab0b-8a9ca515add1")
+    public Client ;
+
+    @objid ("68682eb2-9d14-4b5f-8755-0ae3624e3cc1")
+    public Agent ;
+
+    @objid ("6e68af25-126a-47a8-9fcd-3ff9594a75a8")
+    String getNum_colis() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.num_colis;
+    }
+
+    @objid ("f8b515c0-7d5e-465b-b60f-f037071580d3")
+    public Colis() {
+    }
+
+    @objid ("f37c8d9a-56da-407e-b8c6-1a5c7d0e9a22")
+    protected void finalize() {
+    }
+
+    @objid ("8eab79e5-9cf1-4887-ad5b-a87efd851910")
+    public void lister_colis() {
+    }
+
+}
