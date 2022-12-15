@@ -1,0 +1,32 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("21325939-cf84-4d81-9bda-cdab878b7a38")
+public class Reseration {
+    @objid ("c884c3a2-3427-4776-9f3f-6a8784740aef")
+    private String num_reservation =  ;
+
+    @objid ("892c535b-fee2-47c8-81da-1065257110d9")
+    public Client ;
+
+    @objid ("676570a9-061f-4e5e-a140-f5be4e03013a")
+    public Voyage ;
+
+    @objid ("8ec0a8a4-c881-4b08-9b79-5b1532a68570")
+    String getNum_reservation() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.num_reservation;
+    }
+
+    @objid ("41a1dba3-0a6d-48fa-a1ba-e802a8371428")
+    public void valider_reservation(String num_reservstion) {
+    }
+
+    @objid ("f7490d5c-e300-442d-b251-6dbb8ad29202")
+    public Reseration() {
+    }
+
+    @objid ("db32a0f6-f41c-4110-ace0-d02ccd3b7d04")
+    protected void finalize() {
+    }
+
+}
