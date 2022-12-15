@@ -1,0 +1,40 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("05a27ad3-3fc5-478b-a403-fbe48228d7d4")
+public class Chef_agence {
+    @objid ("c4341f3e-5104-4e4f-942c-dd0c8956a47e")
+    private String id_chef_agence;
+
+    @objid ("b438fe49-cb0b-4885-ad54-99a613c7706f")
+    public String nom_chef_agence;
+
+    @objid ("f271f74d-ec33-433e-b50d-42fa9d75705a")
+    public String email_chef_agence;
+
+    @objid ("51e834db-70f4-4394-bc3c-690d8724bb6a")
+    String getId_chef_agence() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.id_chef_agence;
+    }
+
+    @objid ("404591d5-984a-4cc9-bbb5-219ce9b0dbf9")
+    public Chef_agence() {
+    }
+
+    @objid ("7412e7bf-77e8-44d6-9d31-eeea3f8747f8")
+    String getNom_chef_agence() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.nom_chef_agence;
+    }
+
+    @objid ("e914ef98-03f7-48f4-9ec8-e21fc030ca63")
+    void setNom_chef_agence(String value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.nom_chef_agence = value;
+    }
+
+    @objid ("615dc6f8-5e24-47de-9a4d-3651296d1b87")
+    protected void finalize() {
+    }
+
+}
