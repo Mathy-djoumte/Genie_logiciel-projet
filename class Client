@@ -1,0 +1,104 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("562c29a0-aad2-445d-9fd4-42c4b49116b8")
+public class Client {
+    @objid ("fa778095-69d9-4cc1-a35c-507c46e4ba39")
+    private String CNI_client;
+
+    @objid ("49f105f0-0025-47e8-acdd-d87de1ee0098")
+    private String nom_client;
+
+    @objid ("f5c5bfa2-eedf-4c22-89d9-c1f73b7b0629")
+    private String adresse_client;
+
+    @objid ("d0a7016a-aa75-48cc-93b4-a7d76f0dbd2a")
+    public String email_client;
+
+    @objid ("f67cf3a6-b521-4df2-adb5-0e313f178cf0")
+    public String getCNI_client() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.CNI_client;
+    }
+
+    @objid ("08530bb4-8b0b-46c6-bdfd-46b4decaf6a6")
+    public String getNom_client() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.nom_client;
+    }
+
+    @objid ("cd57ae61-7df3-48ef-9bd2-571119063ddb")
+    void setNom_client(String nom_client) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.nom_client = nom_client;
+    }
+
+    @objid ("cabd530a-d4a0-4cde-bb10-5ff9bed65a09")
+    public String getAdresse_client() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.adresse_client;
+    }
+
+    @objid ("750d0f4e-fe4c-4950-a0a1-9a9e6f1c6837")
+    public void setAdresse_client(String adresse_client) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.adresse_client = adresse_client;
+    }
+
+    @objid ("37bb5aa1-acad-4b22-a34d-c07e525894b7")
+    public Client() {
+      this..CNI_client = String::random();
+      this.nom_client = String::random();
+       this.adresse_client = String::random();
+       this.email_client = String::random(); 
+    }
+
+    @objid ("e6b37923-351e-4fd2-9ed3-80c70b3ea9a7")
+    public void reserver() {
+    }
+
+    @objid ("c8b6f7e2-e25d-4a55-a3d8-27ff296aff89")
+    public void modifier_client(String id_client) {
+     	string id_client =  system.in;
+    }
+
+    @objid ("3e53d28b-3840-408c-92fa-46c33f215e14")
+    public void transfert_colis() {
+    }
+
+    @objid ("f973be2d-c82c-4595-a428-6be381039ef2")
+    protected void finalize() {
+    }
+
+    @objid ("e2195b26-6356-410e-8454-e82cbdaf5f8d")
+    public void lister_client() {
+    }
+
+    @objid ("afa1c472-8954-41aa-b34e-f30acc8a43d2")
+    public void authentification() {
+    }
+
+    @objid ("ea87e420-89df-4efd-adb5-4008df5228a8")
+    public String getEmail_client() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.email_client;
+    }
+
+    @objid ("7eb2158f-2d03-406b-9f54-80f3436828bd")
+    void setEmail_client(String value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.email_client = value;
+    }
+
+    @objid ("954aa507-920f-43f9-9f28-2251aabe0ad4")
+    public void connexion() {
+    }
+
+    @objid ("3a6d0ccb-bb8c-41b3-904c-759aa8ac99b1")
+    public void paiement() {
+    }
+
+    @objid ("6837e2b9-b42b-4594-bf42-2eeb3127b0dd")
+    public void annuler_reservation() {
+    }
+
+}
