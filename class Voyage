@@ -1,0 +1,49 @@
+import java.util.Date;
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("1045887e-75f1-4a59-841c-47a01a1d5c28")
+public class Voyage {
+    @objid ("bcb35ded-7f30-42e3-ab7b-a1796e5d4207")
+    private String id_vayage;
+
+    @objid ("0f3fc56d-0e7e-444c-80a4-21c413110070")
+    public Date date_voyage;
+
+    @objid ("074aa38f-c2f8-4943-a7ab-6d03fd00dc22")
+    public Chef_agence ;
+
+    @objid ("2577aeee-3755-4368-8388-4bb68a79f9c6")
+    public Voyage() {
+    }
+
+    @objid ("2266f4ea-19f4-41c8-99a3-79203c0439a2")
+    public String getId_vayage() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.id_vayage;
+    }
+
+    @objid ("499586ed-e6b8-47d0-8e39-7f8efc9b3fc9")
+    void setDate_voyage(Date value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.date_voyage = value;
+    }
+
+    @objid ("87c63294-7ff9-4131-9979-cc3a5130d320")
+    public Date getDate_voyage() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.date_voyage;
+    }
+
+    @objid ("a4aba112-55f0-4cf7-be31-099a2c7dc7a2")
+    protected void finalize() {
+    }
+
+    @objid ("066ee506-b2d4-405e-be8d-ec6447260e41")
+    public void retarder_voyage() {
+    }
+
+    @objid ("d0e952f4-56c0-4d7b-9c85-f94e0630e070")
+    public void lister_voyage() {
+    }
+
+}
